@@ -31,7 +31,7 @@ const GraphQLExample = () => {
     
 
   return (
-    <div className='grid grid-cols-2 md:grid-cols-4 gap-3'>
+    <div className='grid grid-cols-1 px-3 md:px-4 my-4 md:grid-cols-4 gap-3'>
       {products.map((item) => (
           <div className='w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700' key={item.id}>
             <img src={item.photos[0].url} alt={item.product} className="p-0 max-h-[250px] mx-auto" />
